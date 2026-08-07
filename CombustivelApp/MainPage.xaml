@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CombustivelApp.MainPage">
+
+    <ScrollView>
+
+        <VerticalStackLayout Padding="20" Spacing="10">
+
+            <Label
+                Text="Combustível App"
+                FontSize="26"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"/>
+
+            <Label
+                Text="Entrada de Dados"
+                FontAttributes="Bold"/>
+
+            <Entry
+                x:Name="txtAlcool"
+                Placeholder="Preço do álcool"
+                Keyboard="Numeric"/>
+
+            <Entry
+                x:Name="txtGasolina"
+                Placeholder="Preço da gasolina"
+                Keyboard="Numeric"/>
+
+            <Entry
+                x:Name="txtKmInicial"
+                Placeholder="Quilometragem inicial"
+                Keyboard="Numeric"/>
+
+            <Entry
+                x:Name="txtKmFinal"
+                Placeholder="Quilometragem final"
+                Keyboard="Numeric"/>
+
+            <Entry
+                x:Name="txtLitros"
+                Placeholder="Litros abastecidos"
+                Keyboard="Numeric"/>
+
+            <Entry
+                x:Name="txtConsumoAlcool"
+                Placeholder="Consumo do álcool (km/L)"
+                Keyboard="Numeric"/>
+
+            <Entry
+                x:Name="txtConsumoGasolina"
+                Placeholder="Consumo da gasolina (km/L)"
+                Keyboard="Numeric"/>
+
+            <Button
+                Text="Calcular"
+                Clicked="Button_Clicked"/>
+
+            <Label
+                Text="Resultados"
+                FontAttributes="Bold"
+                Margin="0,20,0,0"/>
+
+            <Label x:Name="lblConsumo"/>
+
+            <Label x:Name="lblCustoAlcool"/>
+
+            <Label x:Name="lblCustoGasolina"/>
+
+            <Label x:Name="lblRegra70"/>
+
+            <Label
+                x:Name="lblResultado"
+                FontAttributes="Bold"
+                FontSize="18"/>
+
+        </VerticalStackLayout>
+
+    </ScrollView>
+
+</ContentPage>
