@@ -14,7 +14,7 @@
                 HorizontalOptions="Center"/>
 
             <Label
-                Text="Entrada de Dados"
+                Text="Insira as informações do posto de gasolina"
                 FontAttributes="Bold"/>
 
             <Entry
@@ -62,11 +62,8 @@
                 Margin="0,20,0,0"/>
 
             <Label x:Name="lblConsumo"/>
-
             <Label x:Name="lblCustoAlcool"/>
-
             <Label x:Name="lblCustoGasolina"/>
-
             <Label x:Name="lblRegra70"/>
 
             <Label

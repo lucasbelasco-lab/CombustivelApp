@@ -8,7 +8,7 @@
     Title="CombustivelApp">
 
     <ShellContent
-        Title="Home"
+        Title="BEM VINDO"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
