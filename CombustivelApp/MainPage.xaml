@@ -41,17 +41,7 @@
                 x:Name="txtLitros"
                 Placeholder="Litros abastecidos"
                 Keyboard="Numeric"/>
-
-            <Entry
-                x:Name="txtConsumoAlcool"
-                Placeholder="Consumo do álcool (km/L)"
-                Keyboard="Numeric"/>
-
-            <Entry
-                x:Name="txtConsumoGasolina"
-                Placeholder="Consumo da gasolina (km/L)"
-                Keyboard="Numeric"/>
-
+            
             <Button
                 Text="Calcular"
                 Clicked="Button_Clicked"/>
@@ -62,8 +52,7 @@
                 Margin="0,20,0,0"/>
 
             <Label x:Name="lblConsumo"/>
-            <Label x:Name="lblCustoAlcool"/>
-            <Label x:Name="lblCustoGasolina"/>
+            
             <Label x:Name="lblRegra70"/>
 
             <Label
